@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    border: none;
+}
+div{
+    width: 230px;
+    height: 100px;
+    margin-left: 10px;
+}
+#skin{
+    width: 210px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding-right: 0;
+}
+#skin li{
+    width: 15px;
+    height: 15px;
+    float: left;
+    display: block;
+    margin-right: 5px;
+    cursor: pointer;
+    background-image: url("../theme.gif");
+}
+#skin_0{
+    background-position: 0 0;
+}
+#skin_1{
+    background-position: 15px 0;
+}
+#skin_2{
+    background-position: 35px 0;
+}
+#skin_3{
+    background-position: 55px 0;
+}
+#skin_4{
+    background-position: 75px 0;
+}
+#skin_5{
+    background-position: 95px 0;
+}
+#skin_0.selected{
+    background-position: 0 15px;
+}
+#skin_1.selected{
+    background-position: 15px 15px;
+}
+#skin_2.selected{
+    background-position: 35px 15px;
+}
+#skin_3.selected{
+    background-position: 55px 15px;
+}
+#skin_4.selected{
+    background-position: 75px 15px;
+}
+#skin_5.selected{
+    background-position: 95px 15px;
+}
